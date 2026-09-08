@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fpl_green">#00FF87</color>
+    <color name="fpl_purple">#37003C</color>
+    <color name="ic_launcher_background">#37003C</color>
+    <string name="app_name">FPL Guide</string>
+    <style name="Theme.FplGuide" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/fpl_purple</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.FplGuide.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/fpl_purple</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.FplGuide</item>
+    </style>
+</resources>

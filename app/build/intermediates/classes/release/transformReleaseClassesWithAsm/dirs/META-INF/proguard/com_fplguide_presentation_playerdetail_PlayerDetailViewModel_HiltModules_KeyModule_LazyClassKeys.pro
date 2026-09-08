@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.fplguide.presentation.playerdetail.PlayerDetailViewModel

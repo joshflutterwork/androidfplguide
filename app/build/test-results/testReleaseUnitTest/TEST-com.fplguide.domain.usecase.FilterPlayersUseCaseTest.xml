@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-08T18:37:49.099Z" hostname="jeasaleph.local" time="0.003">
+  <properties/>
+  <testcase name="min minutes filter drops fringe players" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.001"/>
+  <testcase name="combined filters intersect" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="search matches web name case-insensitively" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="position filter keeps only selected positions" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="ascending order reverses the sort" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="equal sort values break ties by total points then name" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="empty query returns all players sorted by total points descending" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="available only hides risky statuses" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="search matches team short name" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="team filter keeps only selected teams" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="sort by form descending orders by the selector" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.0"/>
+  <testcase name="max cost filter is inclusive" classname="com.fplguide.domain.usecase.FilterPlayersUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

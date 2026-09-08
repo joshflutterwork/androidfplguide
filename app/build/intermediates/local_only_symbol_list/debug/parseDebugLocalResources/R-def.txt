@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color fpl_green
+color fpl_purple
+color ic_launcher_background
+drawable ic_launcher_foreground
+font inter_bold
+font inter_medium
+font inter_regular
+font inter_semibold
+font outfit_bold
+font outfit_semibold
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.FplGuide
+style Theme.FplGuide.Starting
+xml backup_rules

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fplguide.domain.model.PlayerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-08T18:37:49.095Z" hostname="jeasaleph.local" time="0.003">
+  <properties/>
+  <testcase name="status code mapping covers known codes and falls back" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <testcase name="position mapping covers element types and falls back to midfielder" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <testcase name="goal involvements sums goals and assists" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <testcase name="value per million guards against zero cost" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <testcase name="net transfers is inbound minus outbound" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <testcase name="price label formats tenths of millions" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <testcase name="photo url is keyed by code not id" classname="com.fplguide.domain.model.PlayerTest" time="0.002"/>
+  <testcase name="value per million divides points by price in millions" classname="com.fplguide.domain.model.PlayerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
