@@ -1,6 +1,6 @@
 # FPL Guide
 
-Offline-first Android companion app for Fantasy Premier League managers — browse, search,
+Android companion app for Fantasy Premier League managers — browse, search,
 filter and compare all ~650 players using the public FPL API. Built with Kotlin,
 Jetpack Compose (Material 3), Hilt, Retrofit + kotlinx.serialization and Coil.
 
@@ -49,12 +49,4 @@ emulator -avd test
 ./gradlew test                 # unit tests (mappers, filtering, domain models)
 ./gradlew :app:lintDebug       # Android lint
 ```
-
-## Project docs
-
-- `requirements.md` — product/technical spec, architecture, visual anatomy (§6.1)
-- `works_tasks.md` — what's built and the decisions behind it
-- `additional_requirements.md` — remaining backlog (handoff-friendly)
-
-The app needs internet on first launch to fetch `bootstrap-static/`; after that the
-snapshot is cached in-memory for the session (pull-to-refresh forces a fresh fetch).
+pshot is cached in-memory for the session (pull-to-refresh forces a fresh fetch).
